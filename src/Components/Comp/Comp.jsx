@@ -11,7 +11,9 @@ return(
     
 <div className="col-sm-4   col-12 ">
 <div className="card">
-        <div className="card-title text-center text-secondary">{ele.head}</div>
+        <div className="card-title text-center text-secondary"> <p></p> {ele.head}
+        </div>
+        <div className="subtitle text-center"><h1>{ele.pri}</h1></div>
         <hr />
             <div className="card-body">
                <p className={ele.c1}> &nbsp;{ele.b1}</p> <br />

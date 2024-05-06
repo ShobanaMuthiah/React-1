@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 body{
     background: linear-gradient(to right,blue,skyblue) !important;
 }
@@ -5,6 +7,11 @@ body{
     display:flex !important;
     justify-content: center !important;
 }
+.btn{
+    font-family: "Rubik Mono One", monospace !important;
+    font-style: normal !important;
+    letter-spacing: 5px !important;
+  }
 .row{
     display:flex !important;
     justify-content: center !important;
@@ -15,7 +22,7 @@ body{
     border-color: rgb(72, 158, 192) !important;
 }
 .card:hover{
-    zoom: 111% !important
+    zoom: 103% !important
 }
 button:hover{
     background-color: blue !important;
