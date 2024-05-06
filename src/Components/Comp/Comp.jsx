@@ -4,12 +4,12 @@ const Comp = ({arrObj}) => {
     return (
         <>
         <div className='back'>
-        <div className="row mt-2 w-100 w-sm-75 border-0 ">
+        <div className="row mt-2 g-4 w-100 w-sm-75 border-0 ">
 {arrObj.map((ele,index)=>{
 return(
 
     
-<div className="col-sm-4 col-12 ">
+<div className="col-sm-4   col-12 ">
 <div className="card">
         <div className="card-title text-center text-secondary">{ele.head}</div>
         <hr />
