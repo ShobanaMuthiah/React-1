@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(to right,blue,skyblue) !important;
+}
+.back{
+    display:flex !important;
+    justify-content: center !important;
+}
+.row{
+    display:flex !important;
+    justify-content: center !important;
+}
+.btn{
+    border-radius: 20px !important;
+    background-color: rgb(72, 158, 192) !important;
+    border-color: rgb(72, 158, 192) !important;
+}
+.card:hover{
+    zoom: 111% !important
+}
+button:hover{
+    background-color: blue !important;
+}
